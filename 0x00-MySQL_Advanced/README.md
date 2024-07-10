@@ -5,17 +5,17 @@ Advanced SQL
 Resources
 Read or watch:
 
-MySQL cheatsheet
-MySQL Performance: How To Leverage MySQL Database Indexing
-Stored Procedure
-Triggers
-Views
-Functions and Operators
-Trigger Syntax and Examples
-CREATE TABLE Statement
-CREATE PROCEDURE and CREATE FUNCTION Statements
-CREATE INDEX Statement
-CREATE VIEW Statement
+[MySQL cheatsheet](https://devhints.io/mysql)
+[MySQL Performance: How To Leverage MySQL Database Indexing](https://www.liquidweb.com/blog/mysql-optimization-how-to-leverage-mysql-database-indexing/)
+[Stored Procedure](https://www.w3resource.com/mysql/mysql-procedure.php)
+[Triggers](https://www.w3resource.com/mysql/mysql-triggers.php)
+[Views](https://www.w3resource.com/mysql/mysql-views.php)
+[Functions and Operators](https://dev.mysql.com/doc/refman/5.7/en/functions.html)
+[Trigger Syntax and Examples](https://dev.mysql.com/doc/refman/5.7/en/trigger-syntax.html)
+[CREATE TABLE Statement](https://dev.mysql.com/doc/refman/5.7/en/create-table.html)
+[CREATE PROCEDURE and CREATE FUNCTION Statements](https://dev.mysql.com/doc/refman/5.7/en/create-procedure.html)
+[CREATE INDEX Statement](https://dev.mysql.com/doc/refman/5.7/en/create-index.html)
+[CREATE VIEW Statement](https://dev.mysql.com/doc/refman/5.7/en/create-view.html)
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
@@ -871,7 +871,7 @@ Procedure ComputeAverageScoreForUser is taking 1 input:
 user_id, a users.id value (you can assume user_id is linked to an existing users)
 Tips:
 
-Calculate-Weighted-Average
+[Calculate-Weighted-Average](https://www.wikihow.com/Calculate-Weighted-Average)
 bob@dylan:~$ cat 100-init.sql
 -- Initial
 DROP TABLE IF EXISTS corrections;

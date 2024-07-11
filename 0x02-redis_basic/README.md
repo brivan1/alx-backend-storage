@@ -1,10 +1,10 @@
 Resources
 Read or watch:
 
-Redis Crash Course Tutorial
-Redis commands
-Redis python client
-How to Use Redis With Python
+[Redis Crash Course Tutorial](https://www.youtube.com/watch?v=Hbt56gFj998)
+[Redis commands](https://redis.io/docs/latest/commands/)
+[Redis python client](https://redis-py.readthedocs.io/en/stable/)
+[How to Use Redis With Python](https://realpython.com/python-redis/)
 Learning Objectives
 Learn how to use redis for basic operations
 Learn how to use redis as a simple cache
@@ -106,7 +106,7 @@ Create and return function that increments the count for that key every time the
 
 Remember that the first argument of the wrapped function will be self which is the instance itself, which lets you access the Redis instance.
 
-Protip: when defining a decorator it is useful to use functool.wraps to conserve the original function’s name, docstring, etc. Make sure you use it as described here.
+Protip: when defining a decorator it is useful to use functool.wraps to conserve the original function’s name, docstring, etc. Make sure you use it as described [here](https://docs.python.org/3.7/library/functools.html#functools.wraps).
 
 Decorate Cache.store with count_calls.
 
